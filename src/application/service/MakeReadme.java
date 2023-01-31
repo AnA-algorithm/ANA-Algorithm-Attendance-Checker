@@ -35,6 +35,6 @@ public class MakeReadme implements MakeReadmeUseCase {
                 .stream()
                 .filter(logs -> logs.getValue().size() >= 12)
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-        return new ReadMe(command.year(), command.month(), result);
+        return new ReadMe(command.year(), command.month(), filteredResult);
     }
 }
