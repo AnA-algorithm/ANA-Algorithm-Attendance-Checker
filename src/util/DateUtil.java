@@ -6,7 +6,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public class DateUtil {

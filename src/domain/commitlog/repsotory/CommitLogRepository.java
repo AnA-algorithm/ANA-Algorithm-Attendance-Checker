@@ -9,7 +9,7 @@ import java.time.Year;
 import java.util.List;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public interface CommitLogRepository {

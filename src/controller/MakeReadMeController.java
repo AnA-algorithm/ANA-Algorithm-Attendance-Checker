@@ -9,7 +9,7 @@ import java.time.Month;
 import java.time.Year;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public class MakeReadMeController {

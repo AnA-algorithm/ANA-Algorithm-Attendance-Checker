@@ -15,7 +15,7 @@ import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.joining;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public class OutputFileView {
@@ -45,7 +45,6 @@ public class OutputFileView {
     private static final String CHECK_MARK = ":white_check_mark:";
     private static final String EMPTY = "";
     private static final String NEW_LINE = "\n";
-
 
     public static void makeReadMe(final ReadMe readMe) {
         String title = format(TITLE_FORMAT, readMe.year().getValue(), readMe.month().getValue());
@@ -79,6 +78,7 @@ public class OutputFileView {
     }
 
     /**
+     * ex:
      * |name(email)|횟수||||:white_check_mark:||||||||||||||||||||||||||:white_check_mark:|
      * |name(email)|횟수||||||:white_check_mark:|||||||||||||:white_check_mark:|:white_check_mark:|||||||||||
      * ...
@@ -94,6 +94,7 @@ public class OutputFileView {
     }
 
     /**
+     * ex:
      * |name(email)|횟수||||:white_check_mark:||||||||||||||||||||||||||:white_check_mark:|
      */
     private static void makeUserLogText(final Map<GitUser, List<CommitLog>> memberCommitLogs,

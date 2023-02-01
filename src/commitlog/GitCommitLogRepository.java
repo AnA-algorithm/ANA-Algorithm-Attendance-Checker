@@ -23,7 +23,7 @@ import static java.util.stream.StreamSupport.stream;
 import static util.DateUtil.parseIntToLocalDateTime;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public class GitCommitLogRepository implements CommitLogRepository {
