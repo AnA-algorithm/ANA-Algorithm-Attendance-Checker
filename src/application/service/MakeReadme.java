@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public class MakeReadme implements MakeReadmeUseCase {

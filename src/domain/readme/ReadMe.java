@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public record ReadMe(

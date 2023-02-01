@@ -11,6 +11,10 @@ import view.OutputFileView;
 import java.time.Month;
 import java.time.Year;
 
+/**
+ * @author Donghun Shin
+ * Created on 2023. 01. 03
+ */
 public class Main {
 
     public static void main(String[] args) {

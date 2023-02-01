@@ -3,7 +3,7 @@ package domain.commitlog.model;
 import static java.lang.String.format;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public record Branch(

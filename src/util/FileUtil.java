@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * @author Dongun Shin
+ * @author Donghun Shin
  * Created on 2023. 01. 03
  */
 public class FileUtil {
